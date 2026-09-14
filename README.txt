@@ -1,23 +1,21 @@
-Rashad Fitness V8
+Rashad Fitness V9
 
-Fixed:
-- Exercise image is visible in the Workout list.
-- Tapping an exercise opens a full guide with:
-  image
+Main fix:
+- Replaced the generic V8 stick-figure placeholders with exercise-specific START → FINISH instructional visuals for all 28 default exercises.
+- Each exercise now has its own movement pose and equipment setup.
+- Exercise guide details from V8 remain:
   muscles worked
   step-by-step instructions
   form tips
   common mistakes
   take-care notes
   similar exercises
-  workout history
-  best logged set
+  history
+  best set
   progressive-overload suggestion
-- Morning Check-in/readiness retained.
-- Sleep, water, meal history, custom food photos, editable workouts and progress retained.
-- Added Idli set (2 idli + sambar + chutney + chai): approx. 410 kcal / 12 g protein.
-- Added Cola/Coke 300 ml: approx. 126 kcal.
-- V7 data migrates automatically.
-- Offline cache bumped to V8.
+- Morning Check-in, readiness, sleep, water, food history, custom food photos and progress remain.
+- V8 data migrates automatically.
+- Offline cache version bumped to V9.
 
-Upload/replace every file in the GitHub repository root.
+Deploy:
+Replace ALL files in the GitHub repository root and commit.
