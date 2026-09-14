@@ -1,17 +1,9 @@
-Rashad Fitness V6
-
-New:
-- Approved semi-anime shirtless fitness icon
-- Manual sleep tracking (bedtime, wake time, quality)
-- Daily readiness score using sleep, hydration and protein
-- Exercise detail/form guide and safety notes
-- Progressive-overload guidance
-- Custom food photos from iPhone Photo Library or Camera
-- Phone food images are compressed before local storage
-- V5 meal history, water tracking, editable workouts and progress retained
-- Existing V5 data migrates automatically
-
-Important:
-A GitHub Pages PWA cannot directly read Apple Health/HealthKit. Automatic iPhone sleep/Health data requires a native iOS app.
-
-Upload all V6 files to the GitHub repository root and replace the old files.
+Rashad Fitness V7
+- Final standing anime-style app icon
+- Quick Morning Check-in: sleep, weight, energy, soreness, mood
+- Daily readiness recommendation
+- Exercise illustrations and tappable form/safety guides
+- Progressive-overload guidance retained
+- V6 custom food photos, water, meal history, sleep and editable workouts retained
+- V6 data migrates automatically
+Upload/replace every file in the GitHub repo root.
