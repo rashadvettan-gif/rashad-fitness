@@ -1,27 +1,17 @@
-Rashad Fitness v4
-=================
-
-Major redesign matching the approved visual direction.
+Rashad Fitness V6
 
 New:
-- iPhone-style bottom navigation
-- Dark green branded dashboard using your portrait
-- New six-pack cartoon-style app icon from the approved mockup
-- Visual Kerala/Indian food library with food thumbnails
-- Food detail sheet with servings, calories and protein
-- Categories and search
-- Custom foods remain supported
-- Existing workout split remains default but fully editable
-- Exercise library + custom exercises
-- Workout day editor, sets and rep ranges
-- Previous-session reference for progressive overload
-- Weight/waist check-ins and 7-day trend
-- Imports older local V1/V2/V3 data where possible
+- Approved semi-anime shirtless fitness icon
+- Manual sleep tracking (bedtime, wake time, quality)
+- Daily readiness score using sleep, hydration and protein
+- Exercise detail/form guide and safety notes
+- Progressive-overload guidance
+- Custom food photos from iPhone Photo Library or Camera
+- Phone food images are compressed before local storage
+- V5 meal history, water tracking, editable workouts and progress retained
+- Existing V5 data migrates automatically
 
-UPDATE GITHUB PAGES
-1. Extract this ZIP.
-2. Upload/replace ALL files in your rashad-fitness repository root.
-3. Commit.
-4. Wait 1-3 minutes.
-5. Refresh your live site.
-6. If the old PWA remains cached, remove the Home Screen app and add it again.
+Important:
+A GitHub Pages PWA cannot directly read Apple Health/HealthKit. Automatic iPhone sleep/Health data requires a native iOS app.
+
+Upload all V6 files to the GitHub repository root and replace the old files.
