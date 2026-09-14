@@ -1,26 +1,27 @@
-Rashad Fitness Tracker v3
-=========================
+Rashad Fitness v4
+=================
 
-New in v3
-- Your current routine remains the default workout plan.
-- Full exercise library with categories.
-- Search exercises and add them to any workout day.
-- Create custom exercises and save them to the exercise library.
-- Edit workout day names, exercises, sets and rep ranges.
-- Add completely new workout days.
-- Restore the original default routine at any time.
-- Existing food library remains.
-- Create custom foods and save them permanently to the food library.
-- Custom foods include serving description, calories, protein and category.
-- All v2 features remain: PWA/offline mode, preset Kerala foods, workout history,
-  progressive overload reference, 7-day weight average, and weekly assessment.
+Major redesign matching the approved visual direction.
 
-Update GitHub Pages
+New:
+- iPhone-style bottom navigation
+- Dark green branded dashboard using your portrait
+- New six-pack cartoon-style app icon from the approved mockup
+- Visual Kerala/Indian food library with food thumbnails
+- Food detail sheet with servings, calories and protein
+- Categories and search
+- Custom foods remain supported
+- Existing workout split remains default but fully editable
+- Exercise library + custom exercises
+- Workout day editor, sets and rep ranges
+- Previous-session reference for progressive overload
+- Weight/waist check-ins and 7-day trend
+- Imports older local V1/V2/V3 data where possible
+
+UPDATE GITHUB PAGES
 1. Extract this ZIP.
-2. Upload/replace ALL files in your rashad-fitness repository.
-3. Commit changes.
-4. Wait 1–3 minutes and refresh the site.
-5. If the iPhone Home Screen app looks stale, remove it and add it again.
-
-Note
-Food calorie/protein values are estimates and can vary with recipe and portion size.
+2. Upload/replace ALL files in your rashad-fitness repository root.
+3. Commit.
+4. Wait 1-3 minutes.
+5. Refresh your live site.
+6. If the old PWA remains cached, remove the Home Screen app and add it again.

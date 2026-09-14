@@ -1,10 +1,10 @@
 {
-  "name": "Rashad Fitness Tracker",
+  "name": "Rashad Fitness",
   "short_name": "Rashad Fitness",
   "start_url": "./",
   "display": "standalone",
-  "background_color": "#f4f5f7",
-  "theme_color": "#111827",
+  "background_color": "#f6f8f7",
+  "theme_color": "#0b2f27",
   "icons": [
     {
       "src": "icon-192.png",
