@@ -1,8 +1,12 @@
-Rashad Fitness V15
+Rashad Fitness V18
 
-Fixes:
-- All exercise image files now point to photo-based images using Rashad's face.
-- This includes the old legacy file paths too, so no stick figures or old generic exercise thumbnails should appear.
-- Version/cache bumped to V15.
-
-If the iPhone still shows old images, remove the Home Screen app and add it again after the website updates.
+Updates:
+- Every built-in exercise now has its own unique Start and Finish photo using Rashad's face.
+- Bench Press, Leg Curl, Plank, Reverse Pec Fly, Face Pull, combined Reverse Pec Fly / Face Pull, Cross Trainer and Badminton no longer reuse another exercise's artwork.
+- Full-photo display uses contain sizing so the full pose remains visible on iPhone.
+- Muscle anatomy is shown with highlighted front/back maps plus exact primary, secondary and stabilizer names.
+- Default plan aliases such as Leg Extension (pain-free), Cross Trainer (minutes) and Badminton (minutes) now resolve to the correct images and anatomy.
+- Full exercise instructions/form tips are included for the built-in exercise library.
+- Food photo selection from iPhone storage/camera from V17 is retained.
+- V17 data migrates automatically.
+- Cache version bumped to V18.
