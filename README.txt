@@ -1,19 +1,22 @@
-Rashad Fitness V11
+Rashad Fitness V12
 
-What's new in V11:
-- New "Muscle map" on the Progress page: a front/back human body diagram that shades each
-  muscle group by how much you've trained it in the last 7 days (darker green = more sets).
-  Tap Front/Back to flip the view. A legend below shows exact set counts per group.
-- New "Suggested for you" section under the muscle map: automatically points out the 1-2
-  muscle groups you've neglected this week and suggests specific exercises to add, with a
-  one-tap Add button that drops them straight into today's workout.
-- Exercise guide animation is noticeably smoother: it now blends through a synthesized
-  motion-blur middle frame between start and finish (instead of a hard 2-image crossfade),
-  with a gentle scale pulse for a more "alive" feel. Honest note: this is still built from
-  the existing static start/finish artwork, not true frame-by-frame movement -- doing that
-  properly would mean re-illustrating every exercise as a rigged/vector animation, which is
-  a bigger follow-up project if you want it.
-- Offline cache version bumped to V11.
+What's new in V12:
+- Real animated exercise previews. Instead of blending between two photos, the exercise guide
+  now shows an actual moving stick-figure: a small skeleton (joints + bones) that smoothly
+  tweens from the start position to the finish position and back, on a continuous loop. This
+  was auto-rigged from the existing V9 artwork (joint positions were detected from the images,
+  matched between start/finish, and connected into a skeleton), then hand-checked one by one.
+  30 of 31 exercises got the real animation. Hyperextension's artwork didn't auto-rig cleanly,
+  so it keeps the V10/V11-style photo crossfade instead of showing a broken animation -- happy
+  to hand-fix that one specifically if you want it upgraded too.
+- Offline cache version bumped to V12.
+
+Carried over from V11:
+- Muscle map on the Progress page: front/back body diagram shaded by how much you've trained
+  each muscle group in the last 7 days, with a legend and exercise suggestions for whatever
+  you've neglected (one-tap add to today's workout).
+- Service worker now activates updates immediately (skipWaiting + clients.claim) instead of
+  waiting for every tab to close, so future updates show up as soon as you reopen the app.
 
 Carried over from V10:
 - Exercise library shows a real photo thumbnail for every exercise.
@@ -21,11 +24,10 @@ Carried over from V10:
 - Artwork added for Bench Press, Leg Curl, Plank, Reverse Pec Fly, Face Pull.
 
 Carried over from V9:
-- Exercise-specific START -> FINISH instructional visuals for all default exercises.
-- Exercise guide details: muscles worked, step-by-step instructions, form tips, common mistakes,
-  take-care notes, similar exercises, best set, progressive-overload suggestion.
+- Exercise-specific instructional guide: muscles worked, step-by-step instructions, form tips,
+  common mistakes, take-care notes, similar exercises, best set, progressive-overload suggestion.
 - Morning check-in, readiness, sleep, water, food history, custom food photos and progress.
-- Existing local data (weight, meals, workouts, body scans, etc.) migrates automatically.
+- Existing local data migrates automatically -- no action needed.
 
 Deploy:
 Replace ALL files in the GitHub repository root and commit.
